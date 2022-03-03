@@ -14,3 +14,5 @@ with open(insecure_file,'rb') as f_insecure_file:               # open the file 
             b = bytes([c^keys[j]])                              # XOR of the result (c) and the indexation of the key
             f_final_file_name.write(b)
             i = i + i 
+
+            
